@@ -1,0 +1,479 @@
+/* Background pattern from Toptal Subtle Patterns */
+body
+{
+	background-image: url("light-grey-terrazzo.png");
+	font-family: 'Roboto', sans-serif;
+}
+#container
+{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+}
+#logo
+{
+	line-height: 200px;
+	color: white;
+	background-image: url("Logo.jpg");
+	background-size: cover;
+	margin-top: 20px;
+	height: 200px;
+	font-size: 60px;
+	letter-spacing: 3px;
+	text-align: center;
+	font-weight: 700;
+}
+#menu
+{
+	text-align: center;
+	margin-top: 3px;
+	padding: 10px;
+	background-color: grey;
+	text-align: justify;
+}
+.option
+{
+	color: white;	
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	text-align: center;
+	opacity: 0.8;
+}
+#zegarek
+{
+	color: white;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	text-align: right;
+	opacity: 0.8;
+}
+.option:hover
+{
+	background-color: black;
+	cursor: pointer;
+}
+#content
+{
+	width: 718px;
+	float: left;
+	padding: 40px;
+	background-color: #dedede;
+	min-height: 580px;
+	text-align: justify;
+	margin-right: 1px;
+	margin-top: 3px;
+}
+#Reklama
+{	
+	width: 180px;
+	float: left;
+	padding: 20px 10px;
+	background-color: #dedede;
+	min-height: 457px;
+	margin-left: 1px;
+	margin-top: 3px;
+}
+#footer
+{
+	clear: both;
+}
+
+a.tilelink
+{
+	color: white;
+	text-decoration: none;
+}
+a.tilelink_black
+{
+	color: black;
+	text-decoration: none;
+}
+a.tilelink_black1
+{
+	color: black;
+	text-decoration: none;
+}
+a.tilelink_black:hover
+{
+	color:  #8585ad;
+}
+#Logowanie
+{
+float: left;	
+width: 170px;
+padding: 15px;
+background-color: #dedede;
+height: 130px;
+min-height: 130px;
+margin-left: 1px;
+margin-top: 3px;
+}
+input[type=text].Okno_logowania,
+input[type=password].Okno_logowania
+{
+	margin-left: auto;
+	margin-right:auto;
+	width: 400px;
+	padding-left: 5px;
+	font-size: 20px;
+	height: 60px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #dedede;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	outline: none;
+}
+input[type=text].Okno_logowania:focus,
+input[type=password].Okno_logowania:focus
+{
+-webkit-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+-moz-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+border: 2px solid #a5cda5;
+background-color: #e9f3e9;
+color: #428c42;
+}
+input[type=submit].Przycisk_logowania
+{
+	height: 60px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #efefef;
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	width: 400px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #36b03c;
+	outline: none;
+	margin-bottom: 10px;
+	
+}
+input[type=submit].Przycisk_logowania:hover
+{
+	background-color: #37b93d;
+}
+input[type=submit].Przycisk_logowania:focus
+{
+-webkit-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+-moz-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+}
+input[type=text].Okno_rejestracji,
+input[type=password].Okno_rejestracji
+{
+	float: left;
+	width: 400px;
+	padding: 10px;
+	font-size: 20px;
+	height: 30px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #dedede;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	outline: none;
+}
+input[type=text].Okno_rejestracji:focus,
+input[type=password].Okno_rejestracji:focus
+{
+-webkit-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+-moz-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+border: 2px solid #a5cda5;
+background-color: #e9f3e9;
+color: #428c42;
+}
+input[type=submit].Przycisk_rejestracji
+{
+	height: 30px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #efefef;
+	color: white;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	width: 150px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	background-color: #36b03c;
+	outline: none;
+	clear: both;
+	margin-top:90px;
+	
+}
+input[type=submit].Przycisk_rejestracji:hover
+{
+	background-color: #37b93d;
+}
+input[type=submit].Przycisk_rejestracji:focus
+{
+-webkit-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+-moz-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+}
+.error
+{
+	text-align: left;
+	float: left;
+	color:red;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	width: 285px;
+	height: 30px;
+}
+.Przyciski
+{
+	color: white;	
+	margin-left:auto;
+	margin-right:auto;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	text-align: center;
+	opacity: 0.8;
+	margin-top: 13px;
+	margin-bottom: 5px;
+	background-color: #36b03c;
+	cursor: pointer;
+	outline: none;
+}
+.Przyciski:hover
+{
+background-color: #37b93d;
+	
+}
+#Logowanie2
+{
+	margin-top: 200px;
+	padding: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	background-color: #dedede;
+	min-height: 320px;
+	text-align: center;
+	font-size: 20px;
+	
+}
+.error1
+{
+	text-align: left;
+	float: left;
+	color:red;
+	margin-left: 310px;
+	width: 400px;
+	height:0px;
+}
+h2
+{
+	color: #36b03c;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	letter-spacing: 1px;
+	font-size:30px;
+	
+}
+.przywitanie
+{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 40px;
+	color: #36b03c;
+}
+input[type=date]
+{
+	float: left;
+	width: 400px;
+	padding: 10px;
+	font-size: 20px;
+	height: 30px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #dedede;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	outline: none;
+	text-align: left;
+}
+input[type=date]:focus
+{
+-webkit-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+-moz-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+border: 2px solid #a5cda5;
+background-color: #e9f3e9;
+color: #428c42;
+}
+input[type="date"]::before{
+    color: #999;
+    content: attr(placeholder) ": ";
+}
+input[type="date"]:focus::before 
+{
+    content: "" !important;
+}
+input[type=submit].Przycisk_dodawania
+{
+	height: 30px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #efefef;
+	color: white;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	width: 150px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	background-color: #36b03c;
+	outline: none;
+	float: left;
+}
+input[type=submit].Przycisk_dodawania:hover
+{
+	background-color: #37b93d;
+}
+input[type=submit].Przycisk_dodawania:focus
+{
+-webkit-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+-moz-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+}
+.biblioteka
+{
+	background-color: #dcdee2;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: dotted 2px black;
+	width: 698px;
+	min-height:80px;
+}
+.ikonka_strzalki
+{
+	padding: 5px;
+	margin-bottom: 20px;
+	float: left;
+}
+.ikonka_strzalki:hover
+{
+	background-color: #36b03c;
+	cursor: pointer;
+}
+.tekst
+{
+	float:left;
+	width: 660px;
+	min-height:80px;
+}
+.nic_czerwone
+{
+	float: left;
+	padding:5px;
+	font-size: 20px;
+	width: 35px;
+	text-decoration: none;
+	border: 0;
+    background-color: #dcdee2;
+   -webkit-appearance: none;
+}
+.nic_czerwone:hover
+{
+	font-size: 20px;
+	text-decoration: none;
+	border: 0;
+   -webkit-appearance: none;
+	cursor: pointer;
+	background-color: #e55454;
+}
+.nic_zielone
+{
+	float: left;
+	margin-bottom: 20px;
+	padding:5px;
+	font-size: 20px;
+	width: 35px;
+	text-decoration: none;
+	border: 0;
+    background-color: #dcdee2;
+   -webkit-appearance: none;
+}
+.nic_zielone:hover
+{
+	font-size: 20px;
+	text-decoration: none;
+	border: 0;
+   -webkit-appearance: none;
+	cursor: pointer;
+	background-color: #36b03c;
+}
+input[type=submit].Przycisk_zamiany
+{
+	height: 30px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #efefef;
+	color: white;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	width: 150px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	background-color: #36b03c;
+	outline: none;
+	float: left;
+	margin-left: 30px;
+	margin-top: 18px;
+}
+input[type=submit].Przycisk_zamiany:hover
+{
+	background-color: #37b93d;
+}
+input[type=submit].Przycisk_zamiany:focus
+{
+-webkit-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+-moz-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+}
+input[type=text].Okna_updatu
+{
+	float: left;
+	width: 400px;
+	font-size: 15px;
+	height: 14px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #dcdee2;
+	border: 2px dotted black;
+	margin-bottom: 3px;
+	outline: none;
+}
+input[type=text].Okna_updatu:focus
+{
+-webkit-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+-moz-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+border: 2px dotted black;
+background-color: #dcdee2;
+}
+.Zamiana
+{
+	float: left;
+	width: 400px;
+	min-height: 60px;
+	
+}
